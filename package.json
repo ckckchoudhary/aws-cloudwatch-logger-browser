@@ -1,0 +1,40 @@
+{
+  "name": "aws-cloudwatch-log-browser",
+  "version": "0.1.2",
+  "description": "Fast & Simple Logging to AWS CloudWatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint index.js --fix",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckckchoudhary/aws-cloudwatch-logger-browser.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudwatch",
+    "log",
+    "logger",
+    "logstream",
+    "react-native-logger",
+    "aws-cloudwatch-log-browser",
+    "expo",
+    "react-native"
+  ],
+  "author": "Chetan Kumar",
+  "license": "MIT",
+  "homepage": "https://github.com/ckckchoudhary/aws-cloudwatch-logger-browser.git",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "axios": "^0.17.1",
+    "crypto-js": "^3.1.9-1",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "standard-version": "^4.2.0"
+  }
+}
