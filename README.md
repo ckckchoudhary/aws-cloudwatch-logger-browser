@@ -2,7 +2,7 @@
 
 Fast & Simple Logging to AWS CloudWatch from browser. It logs in the background without blocking. By default, it will immediately send the log to your configured AWS LogStream. You can also easily configure it so that the logs are buffered for a specific period of time before being sent as a batch to AWS LogStream. This is the recommended way. 
 
-Just a fork of https://www.npmjs.com/package/aws-cloudwatch-log.
+Just a fork of https://www.npmjs.com/package/aws-cloudwatch-log modified to run on browser/react-native.
 
 For a quick recap on how logging on AWS CloudWatch works, refer to the [Annex below](#annex-short-explanation-about-logs-in-aws-cloudwatch).   
 
@@ -14,6 +14,8 @@ npm install aws-cloudwatch-log-browser --save
 # How To Use It
 ## Basic
 _IMPORTANT: In the example below, it is expected that both the __logGroupName__ and the __logStreamName__ have already been created in AWS CloudWatch. aws-cloudwatch-log provides an extra api to create a new logStreamName._
+
+# Please Don't add your AWS keys directly.
 
 ```js
 const { Logger } = require('aws-cloudwatch-log-browser');
